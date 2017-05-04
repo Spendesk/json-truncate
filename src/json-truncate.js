@@ -46,4 +46,5 @@ const truncate = (obj, maxDepth, options, curDepth) => {
   return options.replace
 }
 
-export default truncate
+module.exports = truncate
+module.exports.default = truncate
